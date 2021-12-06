@@ -1,7 +1,7 @@
 (ns day2.clj
   (:require [clojure.string :as str]))
 
-(def input (as-> (slurp "/Users/ywei/dev/aoc/day1-input.txt") input-str
+(def input (as-> (slurp "/Users/ywei/dev/aoc-21/day1-input.txt") input-str
              (str/split input-str #"\n")
              (map #(Integer/parseInt %) input-str)))
 
